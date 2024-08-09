@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import { statusList } from "../utilis/utils"
 
-const apiRoute = "http://localhost:4001/know"
+const apiRoute = "https://devknow-backend.up.railway.app/know"
 
 export const useKnow = () => {
   const [knowTotalList, setKnowTotalList] = useState([])
