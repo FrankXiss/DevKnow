@@ -1,0 +1,6 @@
+export const statusList = {
+  TRAINIG: 1,
+  ADDING_CONTENT: 2,
+  ADDING_CONTENT_FROM_JSON: 3,
+  EDITING_CONTENT: 4,
+}
